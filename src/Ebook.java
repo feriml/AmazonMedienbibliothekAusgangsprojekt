@@ -28,7 +28,7 @@ public class Ebook extends Medium {
     }
 
     public void setSeitenanzahl(int seitenanzahl) {
-        if (seitenanzahl >= 0)
+        if (seitenanzahl <= 0)
         {
             throw new IllegalArgumentException("Seitenanzahl darf nicht gleich oder weniger als 0 sein!");
         }

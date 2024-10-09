@@ -23,7 +23,7 @@ public class Film extends Medium {
     }
 
     public void setSpielzeit(int spielzeit) {
-        if (spielzeit >= 0){
+        if (spielzeit <= 0){
             throw new IllegalArgumentException("Spielzeit kann nicht 0 oder darunter sein!");
         }
         this.spielzeit = spielzeit;

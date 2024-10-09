@@ -35,3 +35,4 @@
 
 - beinhaltet main methode
 - Film-, Ebook- und Medienbibliothek-Objekt wurde erstellt
+- Ausgeben methoden ausgetestet in der App Klasse und funktionieren

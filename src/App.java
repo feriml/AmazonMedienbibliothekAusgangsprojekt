@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 
 public class App {
@@ -16,5 +17,25 @@ public class App {
 
         ArrayList<Medium> medienListe = new ArrayList<>();
         Medienbibliothek medienbibliothek = new Medienbibliothek(medienListe);
+
+        medienbibliothek.mediumHinzufügen(film);
+        medienbibliothek.mediumHinzufügen(ebook);
+
+        System.out.println("Alle Medien ausgeben!");
+        medienbibliothek.anzeigen();
+
+        System.out.println(" ");
+        System.out.println("Alle Filme ausgeben!");
+        for (Film filme : medienbibliothek.alleFilmeAlsListe())
+        {
+            filme.anzeigen();
+        }
+
+        System.out.println(" ");
+        System.out.println("alle E-Books ausgeben!");
+        for (Ebook ebooks : medienbibliothek.alleEbooksAlsListe())
+        {
+            ebooks.anzeigen();
+        }
     }
 }
