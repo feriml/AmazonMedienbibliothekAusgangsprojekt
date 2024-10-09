@@ -52,4 +52,10 @@ public class Film extends Medium {
     public boolean isHd() {
         return hd;
     }
+
+    public void anzeigen()
+    {
+        super.anzeigen();
+        System.out.println("Regisseur: " + getRegisseur() + " Spielzeit: " + getSpielzeit() + " UHD vorhanden? " + isUhd() + " HD vorhanden? " + isHd());
+    }
 }

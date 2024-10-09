@@ -39,4 +39,26 @@ public class Ebook extends Medium {
         Objects.requireNonNull(auflage);
         this.auflage = auflage;
     }
+
+    public Urheber getAutor() {
+        return autor;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public int getSeitenanzahl() {
+        return seitenanzahl;
+    }
+
+    public String getAuflage() {
+        return auflage;
+    }
+
+    public void anzeigen()
+    {
+        super.anzeigen();
+        System.out.println("Autor: " + getAutor() + " ISBN: " + getIsbn() + " Seitenanzahl: " + getSeitenanzahl() + " Auflage: " + getAuflage());
+    }
 }

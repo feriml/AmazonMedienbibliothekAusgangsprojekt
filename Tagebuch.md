@@ -11,9 +11,11 @@
 - Vollständig ausimplementiert
 - Wird auf Null geprüft
 - Liefert im Konstruktor alle Datenfeld inkl. diese der Mutterklasse Medium
+- anzeigen methode überschrieben
 
 ### E-Book Klasse hinzugefügt
 
 - Vollständig ausimplementiert
 - Wird auf Null geprüft
 - Liefert im Konstruktor alle Datenfeld inkl. diese der Mutterklasse Medium
+- anzeigen methode überschrieben
