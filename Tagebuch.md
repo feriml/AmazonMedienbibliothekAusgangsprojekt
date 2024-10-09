@@ -19,3 +19,14 @@
 - Wird auf Null geprüft
 - Liefert im Konstruktor alle Datenfeld inkl. diese der Mutterklasse Medium
 - anzeigen methode überschrieben
+
+### Medienbibliothek Klasse hinzugefügt
+
+- Vollständig ausimplementiert
+
+#### Methoden
+
+- mediumHinzufügen()
+- anzeigen()
+- alleFilmeAlsListe(
+- alleEbooksAlsListe())
