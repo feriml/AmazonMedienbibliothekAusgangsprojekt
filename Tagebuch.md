@@ -30,3 +30,8 @@
 - anzeigen()
 - alleFilmeAlsListe(
 - alleEbooksAlsListe())
+
+### App Klasse hinzugefügt
+
+- beinhaltet main methode
+- Film-, Ebook- und Medienbibliothek-Objekt wurde erstellt

@@ -8,7 +8,7 @@ public class Ebook extends Medium {
     private int seitenanzahl;
     private String auflage;
 
-    public Ebook(String titel, String kommentar, Date erscheinungsdatum, Genre genre, Urheber autor, String isbn, int seitenanzahl, String auflage) {
+    public Ebook(String titel, String kommentar, String erscheinungsdatum, Genre genre, Urheber autor, String isbn, int seitenanzahl, String auflage) {
         super(titel, kommentar, erscheinungsdatum, genre);
         setAutor(autor);
         setIsbn(isbn);

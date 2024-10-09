@@ -8,7 +8,7 @@ public class Film extends Medium {
     private boolean uhd;
     private boolean hd;
 
-    public Film(String titel, String kommentar, Date erscheinungsdatum, Genre genre, Urheber regisseur, int spielzeit, boolean uhd, boolean hd) {
+    public Film(String titel, String kommentar, String erscheinungsdatum, Genre genre, Urheber regisseur, int spielzeit, boolean uhd, boolean hd) {
         super(titel, kommentar, erscheinungsdatum, genre);
         setRegisseur(regisseur);
         setSpielzeit(spielzeit);

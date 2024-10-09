@@ -6,10 +6,10 @@ public class Medium {
 
     private String titel;
     private String kommentar;
-    private Date erscheinungsdatum;
+    private String erscheinungsdatum;
     private  Genre genre;
 
-    public Medium(String titel, String kommentar, Date erscheinungsdatum, Genre genre) {
+    public Medium(String titel, String kommentar, String erscheinungsdatum, Genre genre) {
         setTitel(titel);
         setKommentar(kommentar);
         setErscheinungsdatum(erscheinungsdatum);
@@ -24,7 +24,7 @@ public class Medium {
         return kommentar;
     }
 
-    public Date getErscheinungsdatum() {
+    public String getErscheinungsdatum() {
         return erscheinungsdatum;
     }
 
@@ -42,7 +42,7 @@ public class Medium {
         this.kommentar = kommentar;
     }
 
-    public void setErscheinungsdatum(Date erscheinungsdatum) {
+    public void setErscheinungsdatum(String erscheinungsdatum) {
         Objects.requireNonNull(erscheinungsdatum);
         this.erscheinungsdatum = erscheinungsdatum;
     }
